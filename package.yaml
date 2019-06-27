@@ -1,0 +1,22 @@
+name:                profunctor-machines
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/marcosh/profunctor-machines#readme
+license:             BSD3
+author:              Marco Perone
+maintainer:          pasafama@gmail.com
+copyright:           2019 Marco Perone
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - machines
+  - profunctors
+
+executables:
+  profunctor-machines:
+    source-dirs:      src
+    main:             Main.hs

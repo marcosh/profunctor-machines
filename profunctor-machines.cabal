@@ -1,0 +1,32 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: b7ed2a8e147b49d74f1890cde7cbdbee58c9ffd85dfcc88d1286e1ce1d077d3b
+
+name:           profunctor-machines
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/marcosh/profunctor-machines#readme
+author:         Marco Perone
+maintainer:     pasafama@gmail.com
+copyright:      2019 Marco Perone
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable profunctor-machines
+  main-is: Main.hs
+  other-modules:
+      Paths_profunctor_machines
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , machines
+    , profunctors
+  default-language: Haskell2010
